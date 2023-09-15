@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/27 11:39:50.000.745,=D:\Users\Tomazini\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/09/04 04:03:45.000.804,=D:\Users\Tomazini\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/09/04 04:04:25.000.627,D:\Users\Tomazini\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\Tomazini\Desktop\GraficoCreator\Units\TelaInicial.fmx</Transaction>
+    <Transaction>2023/09/04 04:04:25.000.627,D:\Users\Tomazini\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Tomazini\Desktop\GraficoCreator\Units\TelaInicial.pas</Transaction>
+    <Transaction>2023/09/04 04:04:39.000.330,D:\Users\Tomazini\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Tomazini\Desktop\GraficoCreator\Project\Project.dproj</Transaction>
+    <Transaction>2023/09/04 04:13:56.000.853,=C:\Users\Tomazini\Desktop\GraficoCreator\Project\Unit1.pas</Transaction>
+    <Transaction>2023/09/04 04:14:52.000.041,C:\Users\Tomazini\Desktop\GraficoCreator\Project\Unit1.fmx=C:\Users\Tomazini\Desktop\GraficoCreator\Units\Exibidor.fmx</Transaction>
+    <Transaction>2023/09/04 04:14:52.000.041,C:\Users\Tomazini\Desktop\GraficoCreator\Project\Unit1.pas=C:\Users\Tomazini\Desktop\GraficoCreator\Units\Exibidor.pas</Transaction>
+    <Transaction>2023/09/04 04:15:37.000.936,=C:\Users\Tomazini\Desktop\GraficoCreator\Project\Unit1.pas</Transaction>
+    <Transaction>2023/09/04 04:16:06.000.501,C:\Users\Tomazini\Desktop\GraficoCreator\Project\Unit1.pas=C:\Users\Tomazini\Desktop\GraficoCreator\Units\Frames\Barras.pas</Transaction>
+    <Transaction>2023/09/04 04:16:06.000.501,C:\Users\Tomazini\Desktop\GraficoCreator\Project\Unit1.fmx=C:\Users\Tomazini\Desktop\GraficoCreator\Units\Frames\Barras.fmx</Transaction>
+    <Transaction>2023/09/15 02:36:32.348,=C:\Users\Tomazini\Desktop\GraficoCreator\Project\Untitled1.md</Transaction>
+    <Transaction>2023/09/15 02:42:17.002,C:\Users\Tomazini\Desktop\GraficoCreator\README.md=C:\Users\Tomazini\Desktop\GraficoCreator\Project\Untitled1.md</Transaction>
+  </Transactions>
+</BorlandProject>

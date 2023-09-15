@@ -1,0 +1,65 @@
+object FrameBarras: TFrameBarras
+  Size.Width = 722.000000000000000000
+  Size.Height = 593.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhitesmoke
+    Size.Width = 722.000000000000000000
+    Size.Height = 593.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Conteudo: TLayout
+      Align = Client
+      Margins.Top = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 672.000000000000000000
+      Size.Height = 583.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object barraLay: TLayout
+        Align = Bottom
+        Position.Y = 363.000000000000000000
+        Size.Width = 672.000000000000000000
+        Size.Height = 220.000000000000000000
+        Size.PlatformDefault = False
+        Visible = False
+        TabOrder = 0
+        object RectBar: TRectangle
+          Align = Bottom
+          Position.Y = 20.000000000000000000
+          Size.Width = 672.000000000000000000
+          Size.Height = 200.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object EtiquetaLbl: TLabel
+          Align = MostTop
+          Size.Width = 672.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.HorzAlign = Center
+          Text = 'EtiquetaLbl'
+          TabOrder = 1
+        end
+      end
+    end
+    object Regua: TLayout
+      Align = Left
+      Size.Width = 50.000000000000000000
+      Size.Height = 593.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Line1: TLine
+        Align = Client
+        LineType = Right
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 583.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 5.000000000000000000
+      end
+    end
+  end
+end

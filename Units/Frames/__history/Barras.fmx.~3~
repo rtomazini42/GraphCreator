@@ -1,0 +1,12 @@
+object FrameBarras: TFrameBarras
+  Size.Width = 722.000000000000000000
+  Size.Height = 593.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Size.Width = 722.000000000000000000
+    Size.Height = 593.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end

@@ -1,0 +1,48 @@
+unit TelaInicial;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.StdCtrls;
+
+type
+  TFormInicial = class(TForm)
+    BtnBarras: TRectangle;
+    Label1: TLabel;
+    Layout1: TLayout;
+    Path1: TPath;
+    Rectangle1: TRectangle;
+    Label2: TLabel;
+    Path2: TPath;
+    Rectangle2: TRectangle;
+    Label3: TLabel;
+    Path3: TPath;
+    procedure BtnBarrasClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormInicial: TFormInicial;
+
+implementation
+
+{$R *.fmx}
+
+uses Exibidor;
+
+procedure TFormInicial.BtnBarrasClick(Sender: TObject);
+begin
+  // Crie uma instância do FormExibicao se ainda não existir
+  if not Assigned(FormExibicao) then
+    FormExibicao := TFormExibicao.Create(Application);
+
+  // Mostre o FormExibicao
+  FormExibicao.Show;
+end;
+
+end.

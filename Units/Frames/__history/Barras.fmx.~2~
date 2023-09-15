@@ -1,0 +1,5 @@
+object FrameBarras: TFrameBarras
+  Size.Width = 722.000000000000000000
+  Size.Height = 593.000000000000000000
+  Size.PlatformDefault = False
+end

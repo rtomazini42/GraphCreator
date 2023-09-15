@@ -1,0 +1,220 @@
+object FormExibicao: TFormExibicao
+  Left = 0
+  Top = 0
+  Caption = 'Barras'
+  ClientHeight = 628
+  ClientWidth = 772
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFFA7FFB7
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFFFF6464
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.X = 1.000000000000000000
+  Fill.Gradient.StartPosition.Y = 0.500000059604644800
+  Fill.Gradient.StopPosition.Y = 0.499999970197677600
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 772.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout3: TLayout
+      Align = Top
+      Position.Y = 32.000000000000000000
+      Size.Width = 696.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object inputValor: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostRight
+        TabOrder = 0
+        Position.X = 544.000000000000000000
+        Size.Width = 152.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Valor: TLabel
+        Align = Right
+        StyledSettings = []
+        Position.X = 336.000000000000000000
+        Size.Width = 208.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Valor'
+        TabOrder = 2
+      end
+      object ComboColorBox2: TComboColorBox
+        Align = Left
+        Color = claWhite
+        Position.X = 155.000000000000000000
+        Size.Width = 113.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        OnChange = ComboColorBox2Change
+      end
+      object Label3: TLabel
+        Align = MostLeft
+        StyledSettings = []
+        Size.Width = 155.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Cor de fundo'
+        TabOrder = 1
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Size.Width = 696.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object inputEtiqueta: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostRight
+        TabOrder = 0
+        Position.X = 544.000000000000000000
+        Size.Width = 152.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label1: TLabel
+        Align = Right
+        StyledSettings = []
+        Position.X = 336.000000000000000000
+        Size.Width = 208.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Etiqueta'
+        TabOrder = 2
+      end
+      object ComboColorBox1: TComboColorBox
+        Align = Left
+        Color = claWhite
+        Position.X = 155.000000000000000000
+        Size.Width = 113.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+      end
+      object Label2: TLabel
+        Align = MostLeft
+        StyledSettings = []
+        Size.Width = 155.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Verdana'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Cor da Barra'
+        TabOrder = 1
+      end
+    end
+    object Layout5: TLayout
+      Align = MostRight
+      Position.X = 696.000000000000000000
+      Size.Width = 76.000000000000000000
+      Size.Height = 72.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object BtnAdd: TRectangle
+        Align = Center
+        Fill.Color = claBlack
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        XRadius = 25.000000000000000000
+        YRadius = 25.000000000000000000
+        OnClick = BtnAddClick
+        object Path1: TPath
+          Align = Center
+          Data.Path = {
+            21000000000000000000C34300208344010000000000BF430020834401000000
+            0000BF4300208244020000000000BF4348D9814402000000C11ABE4300A08144
+            020000000000BD4300A08144020000003FE5BB4300A08144020000000000BB43
+            48D98144020000000000BB4300208244010000000000BB430020834401000000
+            0000B74300208344020000003FE5B54300208344020000000000B54348598344
+            020000000000B54300A08344020000000000B543B8E68344020000003FE5B543
+            00208444020000000000B74300208444010000000000BB430020844401000000
+            0000BB4300208544020000000000BB43B8668544020000003FE5BB4300A08544
+            020000000000BD4300A0854402000000C11ABE4300A08544020000000000BF43
+            B8668544020000000000BF4300208544010000000000BF430020844401000000
+            0000C3430020844402000000C11AC44300208444020000000000C543B8E68344
+            020000000000C54300A08344020000000000C5434859834402000000C11AC443
+            00208344020000000000C34300208344}
+          Fill.Color = claWhite
+          HitTest = False
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 41.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+  object Layout2: TLayout
+    Align = Client
+    Size.Width = 772.000000000000000000
+    Size.Height = 556.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = claBlack
+      Size.Width = 772.000000000000000000
+      Size.Height = 556.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      inline FrameBarras1: TFrameBarras
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 752.000000000000000000
+        Size.Height = 536.000000000000000000
+        Size.PlatformDefault = False
+        inherited Rectangle1: TRectangle
+          Size.Width = 752.000000000000000000
+          Size.Height = 536.000000000000000000
+          inherited Conteudo: TLayout
+            Size.Width = 702.000000000000000000
+            Size.Height = 526.000000000000000000
+          end
+          inherited Regua: TLayout
+            Size.Height = 536.000000000000000000
+            inherited Line1: TLine
+              Size.Height = 526.000000000000000000
+            end
+          end
+        end
+      end
+    end
+  end
+end
